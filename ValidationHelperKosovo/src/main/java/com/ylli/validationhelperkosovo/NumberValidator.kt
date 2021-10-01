@@ -5,6 +5,11 @@ package com.ylli.validationhelperkosovo
  */
 class NumberValidator {
     companion object{
-        fun a() :Int = 1
+        fun isNumberCorrect(number: String):Boolean {
+            if (number.startsWith("+383")){
+                return true
+            }
+            return false
+        }
     }
 }
