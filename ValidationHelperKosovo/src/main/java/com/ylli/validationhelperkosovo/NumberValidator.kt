@@ -6,7 +6,7 @@ package com.ylli.validationhelperkosovo
 class NumberValidator {
     companion object{
         fun isNumberCorrect(number: String):Boolean {
-            if (number.startsWith("+383")){
+            if (number.startsWith("+383" || numbser.startWith("00383")){
                 return true
             }
             return false
